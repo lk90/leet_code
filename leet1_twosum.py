@@ -28,7 +28,7 @@ Only one valid answer exists.
 
 """
 # List=[2,7,11,13]
-
+# all three are correct solution
 
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
@@ -49,15 +49,6 @@ class Solution:
                 mapp[nums[i]] = i
             else:
                 return [mapp[diff],i]
-        """
-        """
-        for i in range(len(nums)):
-            x= target-nums[i]
-            if x==nums[i] in nums[i+1:]:
-                continue
-            if x in nums:
-                break
-        return [i,nums.index(x)]
         """
         mapp = dict()
         for i in range(len(nums)):
