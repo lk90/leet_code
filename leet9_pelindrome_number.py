@@ -38,5 +38,7 @@ class Solution:
 
 
 # below code is for Test purpose
+"""
 y = Solution()
 print(y.isPalindrome(123))
+"""
