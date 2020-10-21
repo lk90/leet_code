@@ -37,7 +37,7 @@ class Solution:
         return temp == rev
 
 
-# below code is for Test purpose
+# below code is for Test purpose on Local machine
 """
 y = Solution()
 print(y.isPalindrome(123))
